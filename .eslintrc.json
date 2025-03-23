@@ -3,12 +3,8 @@
   "rules": {
     // your custom rules
   },
-  "eslintConfig": {
-    "plugins": ["./custom_rules/"],
-    "overrideConfig": {
-      "linterOptions": {
-        "reportUnusedDisableDirectives": true
-      }
-    }
+  "plugins": ["./custom_rules/"],
+  "linterOptions": {
+    "reportUnusedDisableDirectives": true
   }
 }
